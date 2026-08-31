@@ -1,0 +1,15 @@
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\bin\Debug\net10.0\Avaliação POO.exe
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\bin\Debug\net10.0\Avaliação POO.deps.json
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\bin\Debug\net10.0\Avaliação POO.runtimeconfig.json
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\bin\Debug\net10.0\Avaliação POO.dll
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\bin\Debug\net10.0\Avaliação POO.pdb
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.AssemblyInfoInputs.cache
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.AssemblyInfo.cs
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.csproj.CoreCompileInputs.cache
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.sourcelink.json
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.dll
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\refint\Avaliação POO.dll
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.pdb
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\Avaliação POO.genruntimeconfig.cache
+C:\Users\vicente60733046\Documents\GitHub\Avaliação POO\obj\Debug\net10.0\ref\Avaliação POO.dll

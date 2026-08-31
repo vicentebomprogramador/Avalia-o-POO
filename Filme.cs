@@ -1,11 +1,10 @@
-using System;
-using System.Linq;
 
-public class Jogador
+
+public class Filme
 {
     private string? nome;
-    private double? altura;
-    private string? time;
+    private double? duracao;
+    private string? diretor;
 
     public string? Nome
     {
@@ -22,45 +21,43 @@ public class Jogador
         }
     }
 
-    public double? Altura
+    public double? Duracao
     {
-        get { return altura; }
+        get { return duracao; }
         set
         {
             
             if (value.HasValue && value <= 0)
             {
-                Console.WriteLine("Altura deve ser maior que zero.");
+                Console.WriteLine("Duração inválida, deve ser maior que 0");
                 return;
             }
 
-            altura = value; 
+            duracao = value; 
         }
     }
 
-    public string? Time
+    public string? Diretor
     {
-        get { return time; }
+        get { return diretor; }
         set 
         {
             if (!string.IsNullOrEmpty(value) && value.All(char.IsLetter))
             {
-                time = value;
+                diretor = value;
                 return;
             }
-            Console.WriteLine("Time inválido! Contém números, espaços ou símbolos.");
+            Console.WriteLine("diretor inválido! Contém números, espaços ou símbolos.");
         }
     }
-    public Jogador(string nome, double altura, string time)
+    public Filme(string nome, double duracao, string diretor)
     {
         Nome = nome;
-        Altura = altura;
-        Time = time;
+        Duracao = duracao;
+        Diretor = diretor;
     }
     public override string ToString()
     {
-        return $"Jogador: {Nome} | Altura: {Altura}CM | Time: {Time}";
+        return $"Filme: {Nome} | Duração: {Duracao} min | Diretor: {Diretor}";
     }
 }
-
-  

@@ -1,24 +1,21 @@
-using System;
-using System.Linq;
-
-public class Jogador
+public class Animal
 {
-    private string? nome;
+    private string? raca;
     private double? altura;
-    private string? time;
+    private double? peso;
 
-    public string? Nome
+    public string? Raca
     {
-        get { return nome; }
+        get { return raca; }
         set 
         {
             
             if (!string.IsNullOrEmpty(value) && value.All(char.IsLetter))
             {
-                nome = value; 
+                raca = value; 
                 return;
             }
-            Console.WriteLine("Nome inválido! Contém números, espaços ou símbolos.");
+            Console.WriteLine("Raça inválida! Contém números, espaços ou símbolos.");
         }
     }
 
@@ -38,28 +35,28 @@ public class Jogador
         }
     }
 
-    public string? Time
+    public double? Peso
     {
-        get { return time; }
+        get { return peso; }
         set 
         {
-            if (!string.IsNullOrEmpty(value) && value.All(char.IsLetter))
+            if  (value.HasValue && value <= 0)
             {
-                time = value;
+                Console.WriteLine("peso deve ser maior que zero.");
                 return;
             }
-            Console.WriteLine("Time inválido! Contém números, espaços ou símbolos.");
+            peso = value;
         }
     }
-    public Jogador(string nome, double altura, string time)
+    public Animal(string raca, double altura, double peso)
     {
-        Nome = nome;
+        Raca = raca;
         Altura = altura;
-        Time = time;
+        Peso = peso;
     }
     public override string ToString()
     {
-        return $"Jogador: {Nome} | Altura: {Altura}CM | Time: {Time}";
+        return $"Animal: {Raca} | Altura: {Altura}m | Peso: {Peso}kg";
     }
 }
 
